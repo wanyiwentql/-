@@ -1,0 +1,67 @@
+<style type="text/css">
+
+                      .ul li{
+                          list-style: none;
+                          float: left;
+                          width: 25%;
+                          text-align: center;
+                          padding-top: 8px;
+                          padding-bottom: 8px;
+                          background-color:rgb(50,50,50) ;
+                      }
+h3{
+    color: white;
+}
+.li{
+    color: chartreuse;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:link {
+    text-decoration: none;/*无下划线*/
+}
+a:hover {
+    text-decoration: none;/*无下划线*/
+    color: #FF0000;/*鼠标经过颜色*/
+}
+a:active {
+    text-decoration: none;/*无下划线*/
+    color: #000000;/*活动链接颜色*/
+}
+.background3{
+    margin-top:15px;
+    width:1500px;
+    height:1700px;
+    background-color: rgb(155,155,155);
+    background-image: url("by-tira-owl-kosmos-tumannost-planety_2000x1500.jpg");
+    background-size: cover;
+}
+.text{
+    margin-top: 30px;
+    font-style: normal;
+    font-size: 20px;
+    font-family:"微软雅黑 light";
+    color:white ;
+    text-align: left;
+}
+.bg{
+    margin-top:auto;
+    height: 560px;
+    width: 1000px;
+    background-image: url("850c9daf4a940903394907ef95bc8be0.jpg");
+    background-size: cover;
+    text-align:center;
+}
+.backbutton{
+    float: right;
+}
+.closebutton{border-radius: 300px;
+    color: lightgray;
+    float: left;
+
+}
+</style>

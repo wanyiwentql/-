@@ -1,0 +1,279 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Nvidia</title>
+    <style type="text/css">
+        body{height:100%;}
+
+
+        ul li{
+            list-style: none;
+            float: left;
+            width: 25%;
+            text-align: center;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            background-color:rgb(50,50,50) ;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        @-webkit-keyframes mymove
+        {
+            from {left:0px;}
+            to {right:1000px;}
+        }
+
+        .articles{
+            width: 800px;
+            height: 230px;
+            border: 5px;
+            background-color: darkgrey !important;
+            overflow-y: visible;
+            font-style:normal;
+            font-size: 5px;
+            background-attachment:local;
+            background-repeat: no-repeat;
+            text-align: left;
+            padding:10px 10px 10px 10px;
+            background-size: 600px 250px;
+            background-position: 30px 20px;
+            /*background-clip: text; 从前景内容的形状（比如文字）作为裁剪区域向外裁剪，如此即可实现使用背景作为填充色之类的遮罩效果*/
+            zoom:110%;/*规定内容放大的值*/
+            -webkit-animation-delay: 1000ms;
+            -webkit-animation-duration: 1000ms ;
+            -webkit-animation-timing-function: linear;
+            -webkit-animation-name: swing;
+
+        }
+
+        .essay1 {
+
+            background-image: url("Images/04ae2fdc832da8f7c9f7cefdc1955ec8.gif");
+            background-size: contain;
+        }
+
+        .essay2{
+            background-image: url(Images/d0bd474a190a7f8cec0ede52cf667d8c.jpg);
+            background-size: contain;
+
+        }
+
+        .essay3 {
+            background-image: url(Images/850c9daf4a940903394907ef95bc8be0.jpg);
+            background-size: contain;
+        }
+
+        .essay4{
+            background-image: url(Images/e2753fbe3406ee977c79b6f60179a605.jpeg);
+            background-size: contain;
+        }
+        .box{
+            margin: 50px;
+        }
+        .news{
+
+            font-style: normal;
+            font-size: 20px;
+            font-family:"微软雅黑 light";
+            color:white ;
+            text-align: left;
+        }
+        .theme{
+            display:-webkit-box;
+            -webkit-box-pack:center;
+            -webkit-box-align:center;
+            margin:5px;
+            border: 15px solid darkslategray;
+            background-color:darkslategray;
+            font-size: 30px;
+        }
+        .theme:last-child{
+            opacity:0.6;
+        }
+        .bigbackgound1{
+            margin-top:0px;
+            width:1500px;
+            height: 2500px;
+            background-color: rgb(155,155,155);
+            background-image: url("Images/by-tira-owl-kosmos-tumannost-planety_2000x1500.jpg");
+            background-repeat: repeat;
+            background-size: cover;
+
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:link {
+            text-decoration: none;/*无下划线*/
+        }
+        a:hover {
+            text-decoration: none;/*无下划线*/
+            color: #FF0000;/*鼠标经过颜色*/
+        }
+        a:active {
+            text-decoration: none;/*无下划线*/
+            color: #000000;/*活动链接颜色*/
+
+
+        }
+
+
+        @-webkit-keyframes slides{
+            from{
+                margin-left: 10px;
+            }
+            to{
+                margin-right:1800px;
+            }
+        }
+        @-webkit-keyframes swing {
+            20% {
+                -webkit-transform: rotate3d(0, 0, 1, 15deg);
+                transform: rotate3d(0, 0, 1, 15deg);
+            }
+
+            40% {
+                -webkit-transform: rotate3d(0, 0, 1, -10deg);
+                transform: rotate3d(0, 0, 1, -10deg);
+            }
+
+            60% {
+                -webkit-transform: rotate3d(0, 0, 1, 5deg);
+                transform: rotate3d(0, 0, 1, 5deg);
+            }
+
+            80% {
+                -webkit-transform: rotate3d(0, 0, 1, -5deg);
+                transform: rotate3d(0, 0, 1, -5deg);
+            }
+
+            to {
+                -webkit-transform: rotate3d(0, 0, 1, 0deg);
+                transform: rotate3d(0, 0, 1, 0deg);
+            }
+        }
+
+        @-webkit-keyframes flash {
+            from,
+            50%,
+            to {
+                opacity: 1;
+            }
+
+            25%,
+            75% {
+                opacity: 0;
+            }
+        }
+        .music:last-child{
+            opacity: 0;
+
+        }
+        .backbutton{
+            border-radius: 300px;
+            color: lightgray;
+            float: right;
+
+        }
+        .closebutton{border-radius: 300px;
+            color: lightgray;
+            float: left;
+
+        }
+        h3{
+            color: white;
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+
+<div class="bigbackgound1"><p class="music">
+
+</p>
+    <h3>研究方向</h3>
+    <br>
+    <ul class="ul">
+        <li><a href="kexue.html">Navidia加速数据科学</a></li>
+        <li><a href="jiqiren.html">Robot</a></li>
+        <li><a href="nongye.html">TensorRT</a></li>
+        <li><a href="yiliao.html">Medical</a></li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="box" >
+        <div class="articles essay2"></div>
+        <div class="theme" ><strong>在医疗健康领域为 AI 构建普通平台</strong></div>
+        <div class="news">&nbsp &nbsp &nbsp &nbspAI 正彻底地将生命科学、医学和医疗健康重塑为一个行业。为了推进这项变革，NVIDIA 为医疗健康社区提供专门设计的端到端 AI 计算平
+            GPU加速深度学习解决方案可为实时病理评估、即时干预、临床决策预测分析的医疗健康和医学研究应用设计更为复杂的神经网络。AI 中的创新正
+            以难以置信的方式推进精准医学和人口健康管理向前发展。
+        </div>
+    </div>
+
+
+
+    <!--这个项目有着远大的目标。&nbsp&nbsp在发布会结束后，NVIDIA CEO 黄仁勋对围在他身边的一小群媒体人员宣布：“我想要打造全球极为先进的未来驾驶舱，它运用的计算机图形将令人
+    叹为观止，但这不是重点，重点是它将利用人工智能实现用户体验的变革。”-->
+
+
+
+    <div class="box">
+        <div class="articles essay1"></div>
+        <div class="theme" ><strong>GPU加速分析</strong></div>
+        <div class="news">&nbsp &nbsp&nbsp &nbsp>>GPU加速分析工作流程利用数据科学，全球各地的企业可以分析和优化业务流程、供应链、科学研究、产品和数字体验。借助 RAPIDS（新型开源软件库集），GPU 计算正在颠覆数据科学领域，加速机器学习、分析和数据发现，从而以更快的速度获得更精准的结果。</div>
+    </div>
+
+    <br>
+
+    <div class="box" >
+        <div  class="articles essay3"></div>
+        <div class="theme" ><strong>深度学习提供支持的新一代自动化</strong></div>
+        <div  class="news"> &nbsp &nbsp&nbsp &nbsp 在 Databricks，我们对 RAPIDS 加速 Apache Spark 工作负载的潜力充满期待。我们正在进行多个旨在将 Spark 更好地与本机加速器集成的项目，包括 Apache Arrow 支持以及通过 Project Hydrogen 进行 GPU 调度。我们相信 RAPIDS 是一个激动人心的新机会，可扩展我们客户的数据科学和 AI 工作负载。
+            - Matei Zaharia，Databricks 联合创始人兼首席技术官，Apache Spark 创始人
+        </div>
+    </div>
+    <br>
+
+    <div  class="box">
+        <div  class="articles essay4"></div>
+        <div class="theme" ><strong>下一级推理加速已经到来</strong></div>
+        <div class="news" >&nbsp &nbsp&nbsp &nbsp在未来，人工智能将会触及并改善与客户的每一次互动、每一种产品以及每一项服务。认识到未来需要一个能够加速现代人工智能各
+            种应用的计算平台，使企业能够创造新的客户体验，重新构想他们如何满足和超越客户需求，并经济高效地扩展他们基于人工智能的产品和服务。NVIDIA® Tesla® T4 GPU 是世界上极其先进的推理加速器。搭载 NVIDIA Turing™ Tensor Core 的 T4 提供革命性的多精度推理性能，以加速现代人工智能
+            的各种应用。T4 封装在节能的小型 70 瓦 PCIe 中，可针对横向扩展服务器进行优化，并且旨在实时提供极其先进的推理。
+        </div>
+    </div>
+   <!-- <audio controls="controls" autoplay="autoplay"  loop="loop">
+        <source src="Where Dreams Are Born - John Williams.mp3">
+    </audio>-->
+    <script>
+        function back() {
+            window.location.href=("index.html")
+        }
+    </script>
+    <div class="backbutton" ><button type="back" onclick="back()" src="9790944_0.jpg">返回主页</button></div>
+   <div class="closebutton"> <button type="close" onclick="window.close();">关闭网页</button>
+    </div>
+</div>
+
+
+ <!-- function b() {
+    window.location.href="index.html";
+    // body...
+  }-->
+
+
+
+
+<!--<input type="checkbox" name="122">接受我们的条款-->
+</body>

@@ -1,0 +1,182 @@
+<style type="text/css">
+                      body{height:100%;}
+
+
+ul li{
+    list-style: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color:rgb(50,50,50) ;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@-webkit-keyframes mymove
+{
+    from {left:0px;}
+    to {right:1000px;}
+}
+
+.articles{
+    width: 800px;
+    height: 230px;
+    border: 5px;
+    background-color: darkgrey !important;
+    overflow-y: visible;
+    font-style:normal;
+    font-size: 5px;
+    background-attachment:local;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding:10px 10px 10px 10px;
+    background-size: 600px 250px;
+    background-position: 30px 20px;
+    /*background-clip: text; 从前景内容的形状（比如文字）作为裁剪区域向外裁剪，如此即可实现使用背景作为填充色之类的遮罩效果*/
+    zoom:110%;/*规定内容放大的值*/
+    -webkit-animation-delay: 1000ms;
+    -webkit-animation-duration: 1000ms ;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name: swing;
+
+}
+
+.essay1 {
+
+    background-image: url("04ae2fdc832da8f7c9f7cefdc1955ec8.gif");
+    background-size: contain;
+}
+
+.essay2{
+    background-image: url(d0bd474a190a7f8cec0ede52cf667d8c.jpg);
+    background-size: contain;
+
+}
+
+.essay3 {
+    background-image: url(80a28b263e955e486a5795e3d99949ce.jpg);
+    background-size: contain;
+}
+
+.essay4{
+    background-image: url(e2753fbe3406ee977c79b6f60179a605.jpeg);
+    background-size: contain;
+}
+.box{
+    margin: 50px;
+}
+.news{
+
+    font-style: normal;
+    font-size: 20px;
+    font-family:"微软雅黑 light";
+    color:white ;
+    text-align: left;
+}
+.theme{
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+    margin:5px;
+    border: 15px solid darkslategray;
+    background-color:darkslategray;
+    font-size: 30px;
+}
+.theme:last-child{
+    opacity:0.6;
+}
+.bigbackgound1{
+    margin-top:0px;
+    width:1500px;
+    height:2500px;
+    background-color: rgb(155,155,155);
+    background-image: url("by-tira-owl-kosmos-tumannost-planety_2000x1500.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:link {
+    text-decoration: none;/*无下划线*/
+}
+a:hover {
+    text-decoration: none;/*无下划线*/
+    color: #FF0000;/*鼠标经过颜色*/
+}
+a:active {
+    text-decoration: none;/*无下划线*/
+    color: #000000;/*活动链接颜色*/
+
+
+}
+
+
+@-webkit-keyframes slides{
+    from{
+        margin-left: 10px;
+    }
+    to{
+        margin-right:1800px;
+    }
+}
+@-webkit-keyframes swing {
+    20% {
+        -webkit-transform: rotate3d(0, 0, 1, 15deg);
+        transform: rotate3d(0, 0, 1, 15deg);
+    }
+
+    40% {
+        -webkit-transform: rotate3d(0, 0, 1, -10deg);
+        transform: rotate3d(0, 0, 1, -10deg);
+    }
+
+    60% {
+        -webkit-transform: rotate3d(0, 0, 1, 5deg);
+        transform: rotate3d(0, 0, 1, 5deg);
+    }
+
+    80% {
+        -webkit-transform: rotate3d(0, 0, 1, -5deg);
+        transform: rotate3d(0, 0, 1, -5deg);
+    }
+
+    to {
+        -webkit-transform: rotate3d(0, 0, 1, 0deg);
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+}
+
+@-webkit-keyframes flash {
+    from,
+    50%,
+    to {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+.music:last-child{
+    opacity: 0;
+
+}
+.backbutton{
+    border-radius: 300px;
+    color: lightgray;
+
+}
+h3{
+    color: white;
+}
+
+</style>

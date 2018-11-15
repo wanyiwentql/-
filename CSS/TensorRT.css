@@ -1,0 +1,76 @@
+<style type="text/css">
+
+                      ul li{
+                          list-style: none;
+                          float: left;
+                          width: 25%;
+                          text-align: center;
+                          padding-top: 8px;
+                          padding-bottom: 8px;
+                          background-color:black ;
+                          background-color:rgb(50,50,50) ;
+
+                      }
+a{
+    text-decoration: none;
+    color: white;
+}
+.backgroound2{
+    margin-top:0px;
+    width:1500px;
+    height:2000px;
+    background-color: rgb(155,155,155);
+    background-image: url("by-tira-owl-kosmos-tumannost-planety_2000x1500.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.text{
+
+    font-style: normal;
+    font-size: 20px;
+    font-family:"微软雅黑 light";
+    color:white ;
+    text-align: left;
+}
+.theme{
+    color: lightgray;
+    font-family:"微软雅黑";
+    font-style: italic;
+    font-size:30px;
+
+}
+.box{
+    height: 300px;
+    width: 600px;
+}
+.tn1{
+    margin-top: 30px;
+    float: inherit;
+    background-image: url("20180404155146016.jpg");
+    background-size: contain;
+}
+.tn2{
+    margin-top: 30px;
+    float: inherit;
+    background-image: url("untitled000.png");
+
+}
+.tn3{
+    margin-top: 30px;
+    float: inherit;
+    background-image: url("20180815221117146.png");
+    background-size: contain;
+
+}
+h3{
+    color: white;
+}
+.backbutton{
+    float: right;
+}
+.closebutton{border-radius: 300px;
+    color: lightgray;
+    float: left;
+
+}
+</style>

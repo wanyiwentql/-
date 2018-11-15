@@ -1,0 +1,71 @@
+<style type="text/css">
+
+                      ul li{
+                          list-style: none;
+                          float: left;
+                          width: 25%;
+                          text-align: center;
+                          padding-top: 8px;
+                          padding-bottom: 8px;
+                          background-color:black ;
+                          background-color:rgb(50,50,50) ;
+
+                      }
+a{
+    text-decoration: none;
+    color: white;
+}
+.backgroound3{
+    margin-top:0px;
+    width:1500px;
+    height:2000px;
+    background-color: rgb(155,155,155);
+    background-image: url("by-tira-owl-kosmos-tumannost-planety_2000x1500.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+}
+.text{
+    margin-top: 30px;
+    font-style: normal;
+    font-size: 20px;
+    font-family:"微软雅黑 light";
+    color:white ;
+    text-align: left;
+}
+.theme{
+    text-align: left;
+    margin-top: 20px;
+    color: lightgray;
+    font-family:"微软雅黑";
+    font-style: italic;
+    font-size:30px;
+
+}
+.con{
+    text-align: inherit;
+    width:500px;
+    height:300px;
+}
+.box1{
+    background-image: url("u=4202794878,3113784088&fm=173&s=0033C5323D12EA9A61F8D0CA0300E0B1&w=400&h=267&img.jpg")
+}
+.box2{
+    background-image: url("9790944_0.jpg");
+    float: right;
+}
+.box3{
+    background-image: url("155ULH1-1.jpg")
+}
+h3{
+    color: white;
+}
+.backbutton{
+    float: right;
+}
+.closebutton{border-radius: 300px;
+    color: lightgray;
+    float: left;
+
+}
+
+</style>
